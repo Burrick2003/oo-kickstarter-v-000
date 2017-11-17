@@ -8,6 +8,7 @@ attr_accessor :project, :backers
     end
     def add_backer(backer)
       @backers << backers
+      backer.backer << self
     end
 
 
