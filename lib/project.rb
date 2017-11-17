@@ -3,11 +3,11 @@ attr_accessor :project, :backers
     def initialize(title)
       @backers = []
       @project = title
-      @backers << self
+      #@backers << self
 
     end
     def add_backer(backer)
-      self.backers << backers
+      @backers << backers
     end
 
 
